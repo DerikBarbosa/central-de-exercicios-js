@@ -1,14 +1,14 @@
-alert("Hello world na tela"); 
+//alert("Hello world na tela"); 
 
-console.log("Hello world ls lo console");
+//console.log("Hello world ls lo console");
 
 
-let nome = "Derik";
-const idade = 22;
-var cidade = "São Paulo";
+//let nome = "Derik";
+//const idade = 22;
+//var cidade = "São Paulo";
 
-console.log(nome);
-console.log(idade);
+//console.log(nome);
+/*console.log(idade);
 console.log(cidade);
 
 console.log("meu nome é: sompilo");
@@ -33,4 +33,4 @@ let n2 = 10;
 
 let soma = n1 + n2;
 
-console.log(soma)
+console.log(soma)*/
