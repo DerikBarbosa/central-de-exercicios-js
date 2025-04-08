@@ -92,7 +92,7 @@ function exercicio01 () {
 
         }*/
 
-    function exercicio04 () {
+    /*function exercicio04 () {
 
         let numero = prompt("digite um numero")
 
@@ -114,9 +114,41 @@ function exercicio01 () {
             console.log ("o numero é negativo")
 
         
-    }
+    }*/
 
-    exercicio04();
+    /*function exercicio05 () { 
+
+        let numero = prompt("digite uma idade")
+
+        if (numero >= )
 
 
- 
+    } */
+
+        function intermediario01 () {
+
+            let n1 = prompt ("digite um numero");   
+            let n2 = prompt ("digite outro numero");
+            let operacao = prompt ("digite a operacao");
+
+            if (operacao == "+") {
+
+                let resultado = n1 - n2;
+                alert(resultado);
+
+            }else if (operacao == "-") {
+
+                let resultado = n1 - n2;
+                alert(resultado);
+            
+            }else if (operacao == "*") {
+
+                let resultado = n1 - n2;
+                alert(resultado);   
+                
+            }else if (operacao == "/") {
+
+                let resultado = n1 - n2;
+                alert(resultado);    
+            
+            }
