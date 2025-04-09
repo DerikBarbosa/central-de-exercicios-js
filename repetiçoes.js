@@ -46,7 +46,7 @@ console.log("fim da tabuada")
 
 }*/
 
-function exercicioDeRepetiçãoNivelIntermediario002() {
+/*function exercicioDeRepetiçãoNivelIntermediario002() {
 
 let numero = prompt ("digite um numero")
 
@@ -70,8 +70,16 @@ if (numero > numero2 && numero > numero3){
 
         alert("o terceiro é o maior")
 
+}*/
+
+function exercicioDeRepetiçãoNivelIntermediario003 {
+
+
+
+
+
+
+
+
 }
 
-exercicioDeRepetiçãoNivelIntermediario002()
-
-}
