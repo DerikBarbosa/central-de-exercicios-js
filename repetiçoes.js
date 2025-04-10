@@ -46,40 +46,68 @@ console.log("fim da tabuada")
 
 }*/
 
-/*function exercicioDeRepetiçãoNivelIntermediario002() {
+/* function exercicioDeRepetição003 () {
 
-let numero = prompt ("digite um numero")
+    let N = prompt("digite um numero N:")
 
-let numero2 = prompt ("digite o outro numero")
+    let soma = 0;
 
-let numero3 = prompt ("digite mais um numero")
+    let i = 1 
 
-if (numero > numero2 && numero > numero3){
+    while (i <= N){
+        soma += i;
+        i++;
 
-    alert("o primeiro numero é o maior")
+    }
 
-}else{
+    console.log("A soma dos numeros de 1 até " + N + " é: " + soma);
 
-    if (numero2 > numero && numero2 > numero3)
 
-        alert("o segundo numero é o maior")
+    } */
 
-}else{
+    // function exercicioDeRepetiçãoIntermediario001 () { 
 
-    if (numero3 > numero && numero3 > numero2)
-
-        alert("o terceiro é o maior")
-
-}*/
-
-function exercicioDeRepetiçãoNivelIntermediario003 {
+    //     for ()
 
 
 
 
+    // }
 
 
 
 
-}
+    function exercicioDeRepetiçãoIntermediario002 () {
+
+        let numeroAleatorio  = Math.floor(math.random() * (100 - 1 ) + 1);
+
+        let tentativa
+
+        while (tentativa != numeroAleatorio) {
+
+             tentativa= prompt("insira um numero");
+
+            if (numeroAleatorio > tentativa) {
+
+                alert("numero aleatorio é maior");
+
+            } else if (numeroAleatorio < tentativa) {
+ 
+                alert("numero aleatorio é menor")
+
+
+            } else {
+
+                alert("voce acertou!")
+
+            }
+
+
+        }
+
+    } exercicioDeRepetiçãoIntermediario002 ()
+    
+
+
+
 
