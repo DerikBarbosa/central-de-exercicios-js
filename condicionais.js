@@ -1,30 +1,32 @@
-//let numero = prompt("digite um numero");
-
-//if (numero > 0) { 
-
-//    console.log("positivo."); 
-
-
-//} else {
-
- //   if (numero < 0) {
-
- //       console.log("negativo.")
-
-
- //   } else {
-
-
- //           console.log("É zero.")
-
-
-//   }
-//}
-
-/*let numero = prompt("digite um numero")
-
-
 function exercicio01 () {
+
+let num = prompt("digite um numero");
+
+if (num > 0) { 
+
+   console.log("positivo."); 
+
+
+} else {
+
+   if (numero < 0) {
+
+       console.log("negativo.")
+
+
+    } else {
+
+
+           console.log("É zero.")
+
+
+   }
+}
+    gerarlog("Exercicio de condicionais 01 executado." + new Date().toLocaleDateString());
+}
+
+
+function exercicio02 () {
 
     let idade = prompt("digite sua idade:");
 
@@ -42,39 +44,39 @@ function exercicio01 () {
     }
 
 
-}*/
+}
 
 
 
-/*function exercicio02 () {
+function exercicio03 () {
 
 
-        let numero = prompt("insira um numero")
+        let numero = prompt("insira um numero");
 
 
-        if (numero >= 0) {
+        if ( numero %2== 0) {
 
 
-            console.log("o numero é positivo")
+            alert("o numero é positivo")
 
 
-        } else {
+        }else{
 
 
 
-            console.log("o numero é negativo")
+            alert("o numero é negativo")
 
 
 
         }
 
 
-    }*/
+    }
 
 
-    /*function exercicio03 () {
+    function exercicio04 () {
 
-        let numero = prompt("insira um numero")
+        let nota = prompt("insira a nota de um aluno: ");
 
 
         if (numero >= 60) {
@@ -90,40 +92,58 @@ function exercicio01 () {
 
 
 
-        }*/
+        }
 
-    /*function exercicio04 () {
+    }
+
+    function exercicio05 () {
 
         let numero = prompt("digite um numero")
 
         if (numero >= 0) {
 
-            console.log("o numero é positivo")
+            alert("o numero é positivo");
 
-        } 
-
-
-        if (numero <= 0){
-
-
-            console.log ("o numero é igual a zero")
-
-        }else {
+        } else {
             ( numero <= 0) 
 
             console.log ("o numero é negativo")
 
         
-    }*/
+    }
 
-    /*function exercicio05 () { 
+      }
+
+    function exercicio06 () { 
 
         let numero = prompt("digite uma idade")
 
-        if (numero >= )
+        if (numero >= 0 && idade <=12) {
+
+            alert ("voce é criança")
+
+        }else
+
+            if (idade >=13 && idade <=17) { 
+
+                alert("voce e um adulto")
+
+            }else{
+
+                if (idade >= 18) {
+
+                    alert("voce e um adulto")
+
+                }else{
+
+                    alert ("idade invalida")
 
 
-    } */
+                }
+
+    } 
+
+}
 
         function intermediario01 () {
 
@@ -152,3 +172,46 @@ function exercicio01 () {
                 alert(resultado);    
             
             }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function gerarlog (textoDoLog){
+
+
+            let logsContainer = document.querySelector(".logs-container");
+
+            let paragraph = document.createElement("p");
+
+            paragraph.innerHTML = textoDoLog
+
+            logsContainer.appendChild(paragraph); 
+
+
+
+        }
